@@ -4,6 +4,7 @@ MAINTAINER goroutine@126.com
 RUN apt-get update -y
 
 # Add codis
+#
 Add . /go/src/github.com/wandoulabs/codis/
 WORKDIR /go/src/github.com/wandoulabs/codis/
 
